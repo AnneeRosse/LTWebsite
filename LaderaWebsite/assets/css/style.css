@@ -149,7 +149,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 60px;
 }
 
 /*--------------------------------------------------------------
@@ -212,7 +212,10 @@ h6 {
   white-space: nowrap;
   transition: 0.3s;
 }
-
+.img-fluidfooter {
+  max-width: 80%;
+  height: auto;
+}
 .navbar a i,
 .navbar a:focus i {
   font-size: 12px;
@@ -1538,6 +1541,7 @@ section {
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
+  margin-right: 26px;
 }
 
 #footer .credits {
