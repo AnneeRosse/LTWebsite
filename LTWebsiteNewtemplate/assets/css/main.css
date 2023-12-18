@@ -851,7 +851,10 @@ section {
 .hero .carousel-control-prev {
   justify-content: start;
 }
-
+.img-fluidfooter{
+  width: 208px;
+    margin-left: -4px;
+}
 @media (min-width: 640px) {
   .hero .carousel-control-prev {
     padding-left: 15px;
