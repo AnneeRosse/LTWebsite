@@ -775,6 +775,8 @@ section {
   }
 }
 
+
+
 /*--------------------------------------------------------------
 # Carousel Hero Section
 --------------------------------------------------------------*/
@@ -847,6 +849,8 @@ section {
   background: var(--color-primary);
   color: var(--color-white);
 }
+
+
 
 .hero .carousel-control-prev {
   justify-content: start;
