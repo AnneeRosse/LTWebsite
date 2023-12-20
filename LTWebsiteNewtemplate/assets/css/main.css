@@ -3318,14 +3318,7 @@ section {
   border: 2px solid;
   border-radius: 33px;
 }
-.area {
-  margin-left: 129px;
-  width: 45%;
-  opacity: inherit;
-  color: #feba12;
-  border: 2px solid;
-  border-radius: 33px;
-}
+
 .commerece {
   margin-left: 71px;
   width: 91%;
@@ -3334,63 +3327,163 @@ section {
   border: 2px solid;
   border-radius: 33px;
 }
-.industries {
-  margin-left: 67px;
-  width: 64%;
-  opacity: inherit;
-  color: #feba12;
-  border: 2px solid;
-  border-radius: 33px;
-}
+
 .contactas {
-  margin-left: 482px;
-  width: 43%;
+  margin-left: 503px;
+  width: 41%;
   opacity: inherit;
   color: #feba12;
   border: 2px solid;
   border-radius: 33px;
-  margin-top: -22px;
+  margin-top: -34px;
 }
-.ourclient {
-  margin-left: 544px;
-  width: 72%;
-  opacity: inherit;
-  color: #feba12;
-  border: 2px solid;
-  border-radius: 33px;
-  margin-top: -21px;
-}
+
 .new2 {
   border-top: 1px dashed red;
 }
 
 .firstimage {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Poppins", Sans-serif;
   font-size: 32px;
   font-weight: 600;
   margin-left: -525px;
 }
-  .vl {
-    border-left: 4px solid  #feba12;
-    height: 30px;
-    position: absolute;
-    left: 50%;
-    margin-left: -3px;
-    top: 0;
-    margin-left: -466px;
-    margin-top: 24px;
+.vl {
+  border-left: 4px solid #feba12;
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+  margin-left: -466px;
+  margin-top: 24px;
 }
-  .elavate {
-    font-size: 18px;
-    font-weight: 600;
-    font-family: "Poppins", Sans-serif;
-    color: #FFFFFF;
-    margin-right: 229px;
-  }
+.elavate {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Poppins", Sans-serif;
+  color: #ffffff;
+  margin-right: 229px;
+}
 .heading {
   font-family: "Poppins", Sans-serif;
   font-size: 15px;
   font-weight: 400;
 }
 
+.dot {
+  padding-left: 567px;
+  font-size: 46px;
+  color: #feba12;
+  margin-bottom: -1px;
+}
+.line {
+  margin-left: 610px;
+  width: 14%;
+  opacity: inherit;
+  color: #feba12;
+  border: 2px solid;
+  border-radius: 31px;
+  margin-top: -20px;
+}
+.commerce {
+  margin-left: 466px;
+  width: 25%;
+  opacity: inherit;
+  color: #feba12;
+  border: 2px solid;
+  border-radius: 33px;
+  margin-top: -20px;
+}
+.dotcommerce {
+  padding-left: 418px;
+  font-size: 46px;
+  color: #feba12;
+  margin-top: 37px;
+  margin-bottom: -1px;
+}
+.ourfeatures {
+  padding-left: 423px;
+  font-size: 46px;
+  color: #feba12;
+  margin-bottom: -1px;
+}
+.ourservice {
+  margin-left: 524px;
+  width: 13%;
+  opacity: inherit;
+  color: #feba12;
+  border: 2px solid;
+  border-radius: 33px;
+  margin-top: 10px;
+}
+.industries {
+  margin-left: 524px;
+  width: 15%;
+  opacity: inherit;
+  color: #feba12;
+  border: 2px solid;
+  border-radius: 33px;
+  margin-top: -13px;
+}
+
+.dotindustries {
+  padding-left: 478px;
+  font-size: 46px;
+  color: #feba12;
+  margin-bottom: -8px;
+}
+.dotfeatures {
+  padding-left: 423px;
+  font-size: 46px;
+  color: #feba12;
+  margin-bottom: -1px;
+}
+.ourclient {
+  margin-left: 620px;
+  width: 18%;
+  opacity: inherit;
+  color: #feba12;
+  border: 2px solid;
+  border-radius: 33px;
+  margin-top: -88px;
+}
+.dotourclient {
+  padding-left: 0px;
+  font-size: 46px;
+  color: #feba12;
+}
+
+.success {
+  margin-left: 503px;
+  width: 70%;
+  opacity: inherit;
+  color: #feba12;
+  border: 2px solid;
+  border-radius: 33px;
+  margin-top: -34px;
+}
+.ourc {
+  margin-top: -53px;
+  padding-left: 458px;
+  padding-bottom: 12px;
+  font-size: 46px;
+  color: #feba12;
+}
+.final {
+  margin-left: 503px;
+  width: 41%;
+  opacity: inherit;
+  color: #feba12;
+  border: 2px solid;
+  border-radius: 33px;
+  margin-top: -34px;
+}
+.dotfinal {
+  margin-top: -53px;
+  padding-left: 458px;
+  padding-bottom: 12px;
+  font-size: 46px;
+  color: #feba12;
+}
