@@ -3363,3 +3363,28 @@ section {
 .new2 {
   border-top: 1px dashed red;
 }
+
+.firstimage {
+  color: #FFFFFF;
+  font-family: "Poppins", Sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  margin-left: -525px;
+}
+  .vl {
+    border-left: 4px solid  #feba12;
+    height: 30px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+    margin-left: -466px;
+    margin-top: 24px;
+}
+  .elavate {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", Sans-serif;
+    color: #FFFFFF;
+    margin-right: 229px;
+  }
