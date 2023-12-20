@@ -3388,3 +3388,9 @@ section {
     color: #FFFFFF;
     margin-right: 229px;
   }
+.heading {
+  font-family: "Poppins", Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
