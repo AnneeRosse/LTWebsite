@@ -3329,13 +3329,13 @@ section {
 }
 
 .contactas {
-  margin-left: 503px;
+  margin-left: 509px;
   width: 41%;
   opacity: inherit;
   color: #feba12;
   border: 2px solid;
   border-radius: 33px;
-  margin-top: -34px;
+  margin-top: -40px;
 }
 
 .new2 {
@@ -3388,8 +3388,8 @@ section {
   margin-top: -20px;
 }
 .commerce {
-  margin-left: 466px;
-  width: 25%;
+  margin-left: 529px;
+  width: 12%;
   opacity: inherit;
   color: #feba12;
   border: 2px solid;
@@ -3435,7 +3435,7 @@ section {
   margin-bottom: -8px;
 }
 .dotfeatures {
-  padding-left: 423px;
+  padding-left: 486px;
   font-size: 46px;
   color: #feba12;
   margin-bottom: -1px;
@@ -3465,7 +3465,7 @@ section {
   margin-top: -34px;
 }
 .ourc {
-  margin-top: -53px;
+  margin-top: -68px;
   padding-left: 458px;
   padding-bottom: 12px;
   font-size: 46px;
@@ -3486,4 +3486,29 @@ section {
   padding-bottom: 12px;
   font-size: 46px;
   color: #feba12;
+}
+.getstartbutton {
+  margin-left: -695px;
+  margin-top: 20px;
+  margin-bottom: -250px;
+  font-size: 18px;
+  font-weight: 500;
+  /* background-color: #ffc107; */
+}
+
+.ourcase {
+  margin-top: -68px;
+  padding-left: 458px;
+  padding-bottom: 12px;
+  font-size: 61px;
+  color: #feba12;
+}
+.orcase {
+  margin-left: 508px;
+  width: 41%;
+  opacity: inherit;
+  color: #feba12;
+  border: 2px solid;
+  border-radius: 33px;
+  margin-top: -34px;
 }
