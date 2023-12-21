@@ -3512,3 +3512,45 @@ section {
   border-radius: 33px;
   margin-top: -34px;
 }
+.divider {
+  border: 1px solid #ccc;
+}
+img {
+  width: 100%;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.ecommerxe {
+  padding-left: 422px;
+  font-size: 46px;
+  color: #feba12;
+  margin-bottom: -1px;
+}
+.commerecenew {
+  margin-left: 461px;
+  width: 23%;
+  opacity: inherit;
+  color: #feba12;
+  border: 2px solid;
+  border-radius: 31px;
+  margin-top: -20px;
+}
+
+.slider {
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 132%;
+  color: #424242;
+  margin: 0;
+}
+.sliderpara {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 165%;
+  color: #5e5e5e;
+  margin: 0;
+}
