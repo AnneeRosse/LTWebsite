@@ -3506,7 +3506,14 @@ section {
   font-weight: 500;
   /* background-color: #ffc107; */
 }
-
+.getstartbutton2slider {
+  margin-left: -695px;
+  margin-top: 20px;
+  margin-bottom: -102px;
+  font-size: 18px;
+  font-weight: 500;
+  /* background-color: #ffc107; */
+}
 .ourcase {
   margin-top: -68px;
   padding-left: 458px;
@@ -3569,4 +3576,12 @@ img {
 .addedstep {
   font-size: 27px;
   font-weight: 600;
+}
+
+.designdevelop {
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 132%;
+  color: #424242;
+  margin: 0;
 }
