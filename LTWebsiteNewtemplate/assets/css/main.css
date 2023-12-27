@@ -3339,7 +3339,8 @@ section {
   color: #feba12;
   border: 2px solid;
   border-radius: 33px;
-  margin-top: -39px;}
+  margin-top: -39px;
+}
 
 .new2 {
   border-top: 1px dashed red;
@@ -3584,7 +3585,7 @@ img {
   color: #424242;
   margin: 0;
 }
-.brand1{
+.brand1 {
   position: absolute;
   left: 665.5px;
   top: 0px;
@@ -3599,7 +3600,7 @@ books1 {
   height: 23%;
 }
 
-.books2{
+.books2 {
   position: absolute;
   left: 331.25px;
   top: 350.609px;
