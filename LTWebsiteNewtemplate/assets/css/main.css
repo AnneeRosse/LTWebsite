@@ -32,6 +32,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-size: 2.2rem;
   font-family: var(--font-primary);
 }
 
@@ -195,10 +196,13 @@ section {
 }
 
 .section-header h2 {
-  font-size: 48px;
-  font-weight: 300;
+  /* font-size: 48px; */
+  /* font-weight: 300; */
   margin-bottom: 20px;
   color: var(--color-secondary);
+  font-weight: 500;
+  font-size: 2.2rem;
+  font-family: var(--font-primary);
 }
 
 .section-header p {
@@ -208,7 +212,7 @@ section {
 
 @media (min-width: 1280px) {
   .section-header p {
-    max-width: 80%;
+    max-width: 100%;
   }
 }
 
@@ -3456,8 +3460,8 @@ section {
 }
 
 .success {
-  margin-left: 503px;
-  width: 70%;
+  margin-left: 529px;
+  width: 68%;
   opacity: inherit;
   color: #feba12;
   border: 2px solid;
@@ -3466,7 +3470,14 @@ section {
 }
 .ourc {
   margin-top: -68px;
-  padding-left: 458px;
+  padding-left: 491px;
+  padding-bottom: 12px;
+  font-size: 46px;
+  color: #feba12;
+}
+.ourc {
+  margin-top: -68px;
+  padding-left: 491px;
   padding-bottom: 12px;
   font-size: 46px;
   color: #feba12;
@@ -3504,8 +3515,8 @@ section {
   color: #feba12;
 }
 .orcase {
-  margin-left: 508px;
-  width: 41%;
+  margin-left: 526px;
+  width: 30%;
   opacity: inherit;
   color: #feba12;
   border: 2px solid;
