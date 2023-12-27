@@ -186,13 +186,13 @@ h6 {
 # Sections & Section Header
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 40px 0;
   overflow: hidden;
 }
 
 .section-header {
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 45px;
 }
 
 .section-header h2 {
@@ -1301,7 +1301,7 @@ section {
 # Clients Section
 --------------------------------------------------------------*/
 .clients {
-  padding: 0 0 60px 0;
+  padding: 40px 0 60px 0;
 }
 
 .clients .swiper-slide img {
@@ -1319,7 +1319,7 @@ section {
 # Call To Action Section
 --------------------------------------------------------------*/
 .cta {
-  padding: 0;
+  padding: 40px 0;
   margin-bottom: 60px;
 }
 
@@ -1411,7 +1411,7 @@ section {
 # On Focus Section
 --------------------------------------------------------------*/
 .onfocus {
-  padding: 0;
+  padding: 40px 0;
 }
 
 .onfocus .video-play {
@@ -3339,8 +3339,7 @@ section {
   color: #feba12;
   border: 2px solid;
   border-radius: 33px;
-  margin-top: -40px;
-}
+  margin-top: -39px;}
 
 .new2 {
   border-top: 1px dashed red;
@@ -3515,7 +3514,7 @@ section {
   /* background-color: #ffc107; */
 }
 .ourcase {
-  margin-top: -68px;
+  margin-top: -59px;
   padding-left: 458px;
   padding-bottom: 12px;
   font-size: 61px;
