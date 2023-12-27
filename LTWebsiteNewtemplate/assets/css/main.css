@@ -3585,3 +3585,25 @@ img {
   color: #424242;
   margin: 0;
 }
+.brand1{
+  position: absolute;
+  left: 665.5px;
+  top: 0px;
+  width: 22%;
+  margin-top: 2px;
+}
+books1 {
+  position: absolute;
+  left: 993.75px;
+  top: 0px;
+  width: 24%;
+  height: 23%;
+}
+
+.books2{
+  position: absolute;
+  left: 331.25px;
+  top: 350.609px;
+  height: 23%;
+  margin-top: -2px;
+}
