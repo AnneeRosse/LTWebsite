@@ -52,7 +52,7 @@
       #marketoutmore {display: none;}
       #saprtacusoutmore {display: none;}
       #btpoutmore {display: none;}
-
+      #btpcommercemanageoutmore {display: none;}
       </style>
        
       
@@ -377,7 +377,7 @@
                 <i class="bi bi-file-earmark-code"></i>
               </div>
               <h4>
-                <a href="" class="stretched-link">Applications & Engineering</a>
+                <a href="" class="stretched-link">Application Development & Engineering</a>
               </h4>
               <p> Innovative digital solutions tailored to your needs. From concept to execution, we design and develop cutting-edge applications for seamless user experiences </p>
             </div>
@@ -453,7 +453,7 @@
                 <i class="bi bi-cart"></i>
               </div>
               <h4>
-                <a href="" class="stretched-link">Commerce Tool</a>
+                <a href="" class="stretched-link">CommerceTool</a>
               </h4>
               <p>We offer services to our customers using commercetools' Composable Commerce, which provides the necessary tools for outstanding online shopping. It offers flexibility, endless growth opportunities, and improved efficiency, all while saving costs. </p>
             </div>
@@ -663,7 +663,7 @@
 <p>We employ data-driven strategies and analytics to help our customers personalize the shopping 
   <span id="condots">...</span>
   <span id="comore"> experience for  their clients.  We optimize product recommendations and content based on customer behavior and preferences...</span></p>
-  <a onclick="Contextual()" id="cBtn" class="handsymbol">Read more</a>                 
+  <a onclick="Contextual()" id="checkoutBtncontext" class="handsymbol">Read more</a>                 
                 </div>
               </div>
               <div class="col-lg-3" data-aos="fade-up" data-aos-delay="200">
@@ -839,9 +839,9 @@
                           font-weight: 600; max-width: 100%;font-size: 1.65rem;">B2B2C Commerce Management</h3>
                   <!-- <p>In SAP Commerce Cloud, the backoffice is like a control center. It helps businesses handle two main types of sales: B2B (Business-to-Business): This is when one business sells to another. The backoffice helps manage big orders, special prices for different customers, and business accounts. B2C (Business-to-Consumer): This is when a business sells directly to individual shoppers. The backoffice here focuses on making shopping easy for individual customers, like showing personalized products or tracking orders. The SAP Commerce backoffice helps businesses manage both big business sales and individual customer sales in one place.</p> -->
                   <p>In SAP Commerce Cloud, the backoffice is like a control center. It helps businesses handle two main types of sales:
-                    <span id="b2btheaddots">...</span>
-                    <span id="b2bb2cadoutmore">B2B (Business-to-Business): This is when one business sells to another. The backoffice helps manage big orders, special prices for different customers, and business accounts. B2C (Business-to-Consumer): This is when a business sells directly to individual shoppers. The backoffice here focuses on making shopping easy for individual customers, like showing personalized products or tracking orders. The SAP Commerce backoffice helps businesses manage both big business sales and individual customer sales in one place.</span></p>
-                    <a onclick="B2B2C()" id="b2b2ctheadBtn" class="handsymbol">Read more</a>
+                    <span id="btpcommercemanagement">...</span>
+                    <span id="btpcommercemanageoutmore">  B2B (Business-to-Business): This is when one business sells to another. The backoffice helps manage big orders, special prices for different customers, and business accounts. B2C (Business-to-Consumer): This is when a business sells directly to individual shoppers. The backoffice here focuses on making shopping easy for individual customers, like showing personalized products or tracking orders. The SAP Commerce backoffice helps businesses manage both big business sales and individual customer sales in one place.</span></p>
+                    <a onclick="btpcommercemgmt()" id="btpcommercemgmntBtn" class="handsymbol">Read more</a>
                 </div>
               </div>
               <div class="col-lg-3" data-aos="fade-up" data-aos-delay="200">
@@ -871,7 +871,7 @@
         <div class="container" data-aos="fade-up">
           <div class="section-header">
             <h2 style="text-align: center;    ">
-              <span>Our Services </span>
+              <span>Our Solutions & Services</span>
             </h2>
             <div class="section-header">
               <div class="col-lg-4 ourc">
@@ -1882,7 +1882,7 @@
       function Contextual() {
   var dots = document.getElementById("condots");
   var moreText = document.getElementById("comore");
-  var btnText = document.getElementById("checkoutBtn");
+  var btnText = document.getElementById("checkoutBtncontext");
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
@@ -2093,6 +2093,21 @@ function B2B2C() {
   var dots = document.getElementById("platformtheaddots");
   var moreText = document.getElementById("platformb2cadoutmore");
   var btnText = document.getElementById("platformctheadBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+function btpcommercemgmt() {
+  var dots = document.getElementById("btpcommercemanagement");
+  var moreText = document.getElementById("btpcommercemanageoutmore");
+  var btnText = document.getElementById("btpcommercemgmntBtn");
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";

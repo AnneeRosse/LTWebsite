@@ -3609,4 +3609,5 @@ books1 {
 }
 .handsymbol{
   cursor: pointer;
+  text-align: right;
 }
